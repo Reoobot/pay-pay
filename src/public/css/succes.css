@@ -1,0 +1,59 @@
+/* Reset de estilos para eliminar el margen y padding predeterminado */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+nav {
+    background-color: #131921;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #131921;
+    margin-top: 50px;
+}
+
+.success-message {
+    background-color: #f8e9e9;
+    border: 1px solid #f0c1c1;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.success-icon {
+    font-size: 64px;
+    color: #3cc13b;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #131921;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+}
